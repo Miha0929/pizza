@@ -1,0 +1,192 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section_first {
+  background-color: #fff4e6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+nav a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: black;
+  
+}
+.title{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px;
+}
+
+.button_one {
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.button_one:hover {
+  transition: 0.4s;
+  padding: 15px 30px;
+}
+
+.section_one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 40px;
+  font-family: URW Chancery L, cursive;
+}
+
+.foto_one {
+  width: 80%;
+
+}
+
+.text_one {
+  font-size: 20px;
+}
+.button_two {
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  margin-top: 17px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.button_two:hover {
+  transition: 0.4s;
+  padding: 20px 30px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.main_title {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  margin-top: 20px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+  font-family: URW Chancery L, cursive;
+}
+
+.card_foto {
+  width: 375px;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card_one {
+  text-align: center;
+  gap: 15px;
+  font-size: 17px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px black;
+}
+
+.card_one:hover {
+  transition: 0.4s;
+  padding: 20px;
+  box-shadow: 0 4px 8px black;
+}
+
+.card_two {
+  text-align: center;
+  gap: 15px;
+  font-size: 17px;
+  box-shadow: 0 2px 4px black;
+  border-radius: 15px;
+}
+.card_two:hover {
+  transition: 0.4s;
+  padding: 20px;
+  box-shadow: 0 4px 8px black;
+}
+
+.card_three {
+  text-align: center;
+  gap: 15px;
+  font-size: 17px;
+  box-shadow: 0 2px 4px black;
+  border-radius: 15px;
+}
+
+.card_three:hover {
+  transition: 0.4s;
+  padding: 20px;
+  box-shadow: 0 4px 8px black;
+}
+
+.button_three {
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #fff4e6;
+   padding: 20px 0px;
+   font-family: URW Chancery L, cursive;
+}
+
+.foto_three {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.text_description{
+    font-size: 20px;
+}
+.text_description p{
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: #ff8c00;
+    color: white;
+    font-family: URW Chancery L, cursive;
+}
+.delivery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 20px;
+}
